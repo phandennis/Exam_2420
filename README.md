@@ -19,7 +19,7 @@ sudp apt upgrade
 Use vim <filename>   
 Use x to delete single characters    
 Use r to replace single characters      
-Use :%s/before/after/g` where before is 'eco' and after is 'echo'        
+Use :%s/before/after/g where before is 'eco' and after is 'echo'        
   
 ![unedited](./Images/unedited_file.png)  
     
