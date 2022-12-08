@@ -43,6 +43,22 @@ Final command
 
 ![journal](./Images/command_journalctl.png)  
   
+  
+### Part 6
+  
+  ```
+[Unit]
+Description=starts 1 min from boot for find_user.service
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=24h
+Unit=find_user.service
+
+[Install]
+WantedBy=timers.target
+```
+  
 
   
  
