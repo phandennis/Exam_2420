@@ -56,7 +56,7 @@ Create /opt/ in home directory with mkdir /opt
 user=$(whoami)
 
 echo 'Regular users on the system are:'
-grep -rE '[1][0-9]{3}' "/etc/passwd"
+grep -rE '[1-5][0-9]{3}' "/etc/passwd"
 
 echo 'Users currently logged in are:'
 echo ${user} > /etc/motd
