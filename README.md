@@ -62,6 +62,8 @@ Restart=on-failure
 [Install]
 WantedBy=multi-user.target
 ```
+
+![journal](./Images/service.png)  
   
 ### Part 6
   
@@ -79,6 +81,8 @@ Unit=find_user.service
 [Install]
 WantedBy=timers.target
 ```
+
+![journal](./Images/timer.png)  
   
 
   
