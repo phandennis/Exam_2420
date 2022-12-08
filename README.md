@@ -21,21 +21,27 @@ Use 'x' to delete single characters
 Use 'r' to replace single characters
 Use ':%s/before/after/g' where before is 'eco' and after is 'echo'
   
-![unedited]('./images/unedited_file.png')  
+![unedited](./Images/unedited_file.png)  
     
-![edited]('/images/edited_file.png')  
+![edited](./Images/edited_file.png)  
   
 ### Part 3
 
-![man]('/images/man_journalctl.png')  
+![man](./Images/man_journalctl.png)   
 
-![search]('/images/current.png')  
+![search](./Images/current.png)   
 
-![b]('/images/b_option.png')
+![b](./Images/b_option.png)  
 
-![json]('/images/json.png')
+![json](./Images/json.png)  
 
-![output]('/images/output.png')
+![output](./Images/output.png)  
+  
+![priority](./Images/priority.png)  
+  
+![journal](./Images/command_journalctl.png)  
+  
+
   
  
   
