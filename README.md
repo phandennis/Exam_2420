@@ -43,8 +43,29 @@ Final command
 
 ![journal](./Images/command_journalctl.png)  
   
+
+### Part 4  
+  
+### Part 5  
+  
+  This is in /etc/systemd/system  
+  
+  ```
+[Unit]
+Description=run find_users to write to /etc/motd
+
+[Service]
+Type=simple
+ExecStart=/opt/find_users
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+```
   
 ### Part 6
+  
+  This is in /etc/systemd/system  
   
   ```
 [Unit]
