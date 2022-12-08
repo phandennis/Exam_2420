@@ -66,6 +66,7 @@ echo ${user} > /etc/motd
   
   This is in /etc/systemd/system  
   
+  The file name is find_user.service    
   ```
 [Unit]
 Description=run find_users to write to /etc/motd
@@ -84,6 +85,8 @@ WantedBy=multi-user.target
 ### Part 6
   
   This is in /etc/systemd/system  
+  
+  The file name is find_user.timer  
   
   ```
 [Unit]
