@@ -17,9 +17,9 @@ sudp apt upgrade
 ### Part 2
 
 Use 'vim <filename>
-Use 'x' to delete single characters
-Use 'r' to replace single characters
-Use ':%s/before/after/g' where before is 'eco' and after is 'echo'
+Use 'x' to delete single characters  
+Use 'r' to replace single characters  
+Use ':%s/before/after/g' where before is 'eco' and after is 'echo'   
   
 ![unedited](./Images/unedited_file.png)  
     
@@ -39,6 +39,8 @@ Use ':%s/before/after/g' where before is 'eco' and after is 'echo'
   
 ![priority](./Images/priority.png)  
   
+Final command  
+
 ![journal](./Images/command_journalctl.png)  
   
 
